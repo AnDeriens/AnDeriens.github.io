@@ -1,0 +1,10 @@
+{
+  "name": "AnDeriens.hithub.io",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.4.5"
+  }
+}
