@@ -8,7 +8,7 @@ cache:
 
 branches:
   only:
-  - master
+  - development
 
 install:
   - npm install
@@ -24,4 +24,4 @@ deploy:
   target-branch: master
   local-dir: dist
   on:
-    branch: master
+    branch: development
