@@ -1,13 +1,21 @@
 <template>
   <div class="container">
-    <h2 class="title">My Portfolio</h2>
+    <h2 class="title">AnDeriens Portfolio</h2>
 
     <ul class="list">
+      <li class="listItem">
+        <h3>このサイトについて</h3>
+        <p class="listItem--box">
+        このサイトは、AnDeriensのポートフォリオサイトです。Nuxt.jsで実装したアプリケーションを、GitHubのGitHub Pages機能を使用してホスティングしています。<br>
+        技術詳細については<a href="https://qiita.com/Anderiens/items/a4c5783b5197de682329">こちら。</a>
+        </p>
+      </li>
       <li class="listItem">
         <h3>Profile</h3>
         <p class="listItem--box">
           2017年京都大学大学院人間・環境学研究科博士課程を退学。ウェブ広告系の企業にPHPエンジニアとして入社。複数の自社サービスのバックエンド・フロントエンド開発を担当。<br>
           2018年、オーダースーツブランドを展開する企業に入社。自社サービスECサイトのバックエンド開発を担当。<br>
+          2019年、フリーランスに転向。現在は、SaaSの自社サービス開発にメインで携わりつつ、様々なプロジェクト・ウェブシステム開発にも関わっている。<br>
           いわゆる文系エンジニア。
         </p>
       </li>
