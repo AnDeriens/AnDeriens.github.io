@@ -15,9 +15,9 @@ const head = {
 }
 
 export default {
-  modules: ['@nuxtjs/style-resources'],
-  css: [
-    'ress',
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/vuetify',
   ],
   styleResources: {
     scss: [
