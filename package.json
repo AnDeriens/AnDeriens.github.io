@@ -5,6 +5,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.8.1"
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.13.1",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.8.1",
+    "ress": "^2.0.4",
+    "sass-loader": "^8.0.2"
   }
 }
