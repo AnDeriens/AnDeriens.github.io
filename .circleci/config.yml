@@ -7,9 +7,9 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - checkout
-      - run:
-          name: 'install yarn'
-          command: curl -o- -L https://yarnpkg.com/install.sh | bash
+      - node/install:
+          install-yarn: true
+      - run: node --version
       - run:
           name: 'install packages'
           command: yarn install --frozen-lockfile
