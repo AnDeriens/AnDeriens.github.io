@@ -1,8 +1,6 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
-parameters:
-  app-dir: ~/
 jobs:
   build:
     docker: 
@@ -15,4 +13,5 @@ jobs:
 workflows:
   node-tests:
     jobs:
+      - build
       - node/test
