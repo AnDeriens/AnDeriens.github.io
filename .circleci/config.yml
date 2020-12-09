@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
-working_directory: ~/
+app-dir: ~/
 jobs:
   build:
     docker: 
@@ -12,7 +12,6 @@ jobs:
           install-yarn: true
       - run: node --version
 workflows:
-  working_directory: ~/
   node-tests:
     jobs:
       - node/test
