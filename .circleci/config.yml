@@ -12,6 +12,7 @@ jobs:
           install-yarn: true
       - run: node --version
 workflows:
+  working_directory: ~/
   node-tests:
     jobs:
       - node/test
