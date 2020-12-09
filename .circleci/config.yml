@@ -8,9 +8,5 @@ jobs:
     steps:
       - checkout
       - run:
-        name: install packages
-        command: yarn install --frozen-lockfile
-workflows:
-  build:
-    jobs:
-      - build
+          name: 'install packages'
+          command: yarn install --frozen-lockfile
