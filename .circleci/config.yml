@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - node/install:
-        install-yarn: true
+          install-yarn: true
       - run: node --version
 workflows:
   node-tests:
