@@ -8,7 +8,9 @@ jobs:
     steps:
       - checkout
 workflows:
-  node-tests:
+  build:
     jobs:
       - build
+  node-tests:
+    jobs:
       - node/test
