@@ -8,5 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
+          name: 'install yarn'
+          command: curl -o- -L https://yarnpkg.com/install.sh | bash
+      - run:
           name: 'install packages'
           command: yarn install --frozen-lockfile
