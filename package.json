@@ -10,7 +10,7 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^2.11.0",
     "ress": "^2.0.4",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^11.1.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.0"
